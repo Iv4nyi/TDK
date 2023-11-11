@@ -107,7 +107,7 @@ const App = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`,
           },
         }
       );
